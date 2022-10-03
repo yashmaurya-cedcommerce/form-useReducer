@@ -2,37 +2,143 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.formContainer
+{
+  width: 90%;
+  margin: auto;
+  padding: 2% 0%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.formHeader
+{
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.backBtnDiv
+{
+  width: 5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.backBtnDiv button
+{
+  width: 100%;
+}
+
+.mainFormDiv
+{
+  width: 100%;
+}
+
+.entryContainer
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 3% 0%;
+}
+
+.firstEntryDiv
+{
+  width: 30%;
+  text-align: start;
+  font-family: 'Poppins', sans-serif;
+  padding: 0% 3%;
+}
+
+.entryHeading
+{
+  font-size: 1.6vw;
+  margin: 5% 0%;
+  font-weight: bolder;
+}
+
+.entrySubheading 
+{
+  font-size: 1.3vw;
+  font-weight: bolder;
+  opacity: 75%;
+}
+
+.secondEntryDiv
+{
+  width: 70%;
+}
+
+.inputContainer
+{
+  width: 90%;
+  margin: auto;
+  padding: 3% 0%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.checkboxContainer
+{
+  width: 90%;
+  margin: auto;
+  padding: 3% 10%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  text-align: start;
+}
+
+.radioContainer
+{
+  width: 90%;
+  margin: auto;
+  padding: 3% 10%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  text-align: start;
+}
+
+.Polaris-Connected
+{
+  width: 80%;
+  margin: auto;
+}
+hr
+{
+  width: 95%;
+  margin: auto;
+  opacity: 80%;
+}
+
+.formFooter
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modalRowDiv
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modalRowDiv p
+{
+  font-size: 1.6vw;
+  margin: 1% 0%;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.modalLabel
+{
+  width: 50%;
+}
+
+.modalEntry
+{
+  width: 50%;
+  text-align: end;
 }
